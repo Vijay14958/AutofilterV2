@@ -30,7 +30,7 @@
 * `DATABASE_URL` : MongoDB Database URI for Saving UserID for hunting or Broadcasting..
 * `UPDATES_CHANNEL`: ID of a Channel which you want to do Force Sub to use the bot.
 * `USER_SESSION_STRING`: Get this from @SessionStringGeneratorZBot
-* Check [app.json](https://github.com/LazyDeveloperr/LazyUrlHunterrBOT/blob/main/app.json) for more
+* Check [app.json](https://github.com/Vijay14958/AutofilterV2/blob/main/app.json) for more
 
 
 ## Deploy
@@ -41,14 +41,14 @@ You can deploy this bot anywhere.
  <p>
    <pre>gunicorn app:app & python3 main.py</pre>
  <br>
- <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/LazyDeveloperr/LazyUrlHunterrBOT&branch=main&name=lazyhunterbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
+ <a target="_blank" href="https://app.koyeb.com/deploy?type=git&repository=github.com/Vijay14958/AutofilterV2&branch=main&name=lazyhunterbot"><img alt="Deploy to Koyeb" src="https://binbashbanana.github.io/deploy-buttons/buttons/remade/koyeb.svg"></a>
  </p>
 </details>
 
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/LazyDeveloperr/LazyUrlHunterrBOT">
+<a href="https://heroku.com/deploy?template=https://github.com/Vijay14958/AutofilterV2">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -56,7 +56,7 @@ You can deploy this bot anywhere.
 
 <p>
 <pre>
-git clone https://github.com/LazyDeveloperr/LazyUrlHunterrBOT
+git clone https://github.com/Vijay14958/AutofilterV2
 # Install Packages
 pip3 install -r requirements.txt
 Edit configs.py with variables as given below then run bot
