@@ -14,7 +14,7 @@ class Config(object):
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "BetterFilter_VJBot")
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 5606411877))
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://Demo123:Demo123@cluster0.qans7w0.mongodb.net/?retryWrites=true&w=majority")
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001787446188")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b> <a href='https://t.me/vj_bots'>Update Channel</a> is an open source project.
 
     Devs: 
