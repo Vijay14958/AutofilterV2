@@ -14,8 +14,8 @@ COPY requirements.txt /requirements.txt
 # Installing Requirements
 RUN cd /
 RUN pip3 install -r requirements.txt
-RUN mkdir /LazyUrlHunterrBOT
-WORKDIR /LazyUrlHunterrBOT
+RUN mkdir /AutofilterV2
+WORKDIR /AutofilterV2
 COPY start.sh /start.sh
 
 # Running MessageSearchBot
